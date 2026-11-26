@@ -123,7 +123,7 @@ for (var i = 0; i < SAVE_SLOTS; ++i) {
 			draw_set_halign(fa_left)
 		}
 		else {
-			draw_text_transformed_shadow(160, 120 + i*90, loc("save_select_completion_file")[0], 2, 2, 0, 2, shadow)
+		//	draw_text_transformed_shadow(160, 120 + i*90, loc("save_select_completion_file")[0], 2, 2, 0, 2, shadow)
 			draw_text_transformed_shadow(160, 154 + i*90, loc("save_select_completion_file")[1], 2, 2, 0, 2, shadow)
 		}
 	}
@@ -249,7 +249,7 @@ if state < 2 { // main
 		option_draw(108, 420, loc_string("save_select_ch_files", global.chapter-1), SAVE_SLOTS+3)
 	if language {
         draw_set_font(font_main_ja)
-		option_draw(280, 420, $"{loc("chapter_select_lanswitch")}", SAVE_SLOTS+4)
+//		option_draw(280, 420, $"{loc(}chapter_select_lanswitch{)}", SAVE_SLOTS+4)
     }
     
     draw_set_font(loc_font("main"))

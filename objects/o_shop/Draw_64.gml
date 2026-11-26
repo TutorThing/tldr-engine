@@ -19,7 +19,7 @@ if menu_in_options {
     }
 }
 if !menu_expanded
-    draw_text_transformed(440, 420, $"${save_get("money")}", 2, 2, 0)
+   // draw_text_transformed(440, 420, $"${save_get(}money{)}", 2, 2, 0)
 
 if !menu_in_options && is_callable(menu_drawer)
     menu_drawer()

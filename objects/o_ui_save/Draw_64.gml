@@ -154,7 +154,7 @@ if page == 1 { // save menu
 			draw_text_transformed(320, 203 - 8 + yy, loc(global.room_name), 2, 2, 0)
 			draw_set_halign(fa_left)
 		
-			draw_text_transformed(80, 173 - 8 + yy, $"LV {save_get("chapter")}", 2, 2, 0)
+		//	draw_text_transformed(80, 173 - 8 + yy, $"LV {save_get(}chapter{)}", 2, 2, 0)
 			draw_set_halign(fa_right)
 			draw_text_transformed(557, 173 - 8 + yy, time_format(global.time), 2, 2, 0)
 			

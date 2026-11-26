@@ -138,8 +138,11 @@ array_push(global.key_items, new item_key_cell_phone())
 // ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 party_init()
+
+party_m_initialize("cloud", party_m_cloud)
 global.party_names = [   // <-- if you wish to change the default team members, change them here
     "kris", "susie", "ralsei"
+	//"cloud", "barret", "tifa"
 ]
 party_apply_equipment()
 
@@ -163,6 +166,9 @@ music_stop_all()
 
 save_reload()
 save_load(global.save_slot)
+
+if !struct_exists(global.party, "cloud")      // <-- yours
+    party_m_initialize("cloud", party_m_cloud)
 
 // init the typer chars
 typer_chars_init()

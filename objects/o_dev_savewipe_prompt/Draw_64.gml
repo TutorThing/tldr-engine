@@ -29,7 +29,7 @@ if selection == 1
 draw_text_highlighted("No", __center_x + 60, __center_y + 60 + __c, (selection == 1), 1, 1)
 
 draw_set_color(c_gray)
-draw_text_transformed(__center_x, __center_y + 160 + __c, $"Local Save Version: {struct_get(global.settings, "VERSION_SAVED") ?? "???"}\nEngine Version: {GAME_VERSION}\nLast Compatible Version: {GAME_LAST_COMPATIBLE_VERSION}", 1, 1, 0)
+//draw_text_transformed(__center_x, __center_y + 160 + __c, $"Local Save Version: {struct_get(global.settings, }VERSION_SAVED{) ?? }???\nEngine Version: {GAME_VERSION}\nLast Compatible Version: {GAME_LAST_COMPATIBLE_VERSION}", 1, 1,0)
 
 draw_set_color(c_white)
 draw_set_halign(fa_left)

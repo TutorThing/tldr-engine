@@ -9,13 +9,13 @@
 	
 	draw_set_font(loc_font("main"))
 	draw_set_color(c_white)
-	draw_text_transformed(46, 60 + yy, loc(save_get("lw_name")), 2, 2, 0)
+	//draw_text_transformed(46, 60 + yy, loc(save_get("lw_name")), 2, 2, 0)
 	draw_set_font(font_lwmenu)
 
 	draw_text_transformed(46, 100-6 + yy, loc("menu_lw_lv"), 2, 2, 0)
 	draw_text_transformed(82, 100-6 + yy, save_get("lw_lv"), 2, 2, 0)
 	draw_text_transformed(46, 118-6 + yy, loc("menu_lw_hp"), 2, 2, 0)
-	draw_text_transformed(82, 118-6 + yy, $"{save_get("lw_hp")}/{save_get("lw_maxhp")}", 2, 2, 0)
+	//draw_text_transformed(82, 118-6 + yy, $"{save_get(}lw_hp{)}/{save_get(}lw_maxhp{)}", 2, 2, 0)
 	draw_text_transformed(46, 136-6 + yy, "$", 2, 2, 0)
 	draw_text_transformed(80, 136-6 + yy, save_get("lw_money"), 2, 2, 0)
 

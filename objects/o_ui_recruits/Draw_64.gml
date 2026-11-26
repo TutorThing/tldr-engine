@@ -86,7 +86,7 @@ else if view == 1 {
     draw_text_transformed(560, 320, loc("recruits_defense"), 1, 2, 0)
     draw_text_transformed(590, 320, loc(current_recruit.defense), 1, 2, 0)
     
-    draw_text_transformed(590, 360, $"{loc("recruits_element")} {current_recruit.element}", 1, 2, 0)
+    //draw_text_transformed(590, 360, $"{loc(}recruits_element{)} {current_recruit.element}", 1, 2, 0)
     
     draw_set_halign(fa_left)
     input_binding_draw(INPUT_VERB.CANCEL, 80, 400, 2, loc("recruits_return_msg")[0], loc("recruits_return_msg")[1])
